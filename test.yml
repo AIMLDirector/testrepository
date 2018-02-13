@@ -1,0 +1,4 @@
+- hosts: localhost
+  tasks:
+    - name: just an uname
+      command: uname -a
